@@ -6,15 +6,24 @@ header {
     color: white;
     text-align: center;
 }
+h1 {
+    text-align: center;
+}
 section {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
     background: white;
     border-radius: 10px;
-    padding: 15px;
-    width: 500px;
+    padding: 1em;
+    width: 14em;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
 }
 footer {
+    display: flex;
+    justify-content: center;
     color: white;
     text-align: center;
     font-style: italic;
@@ -26,5 +35,5 @@ footer {
 }
 div {
     text-align: center;
-    padding: 8px;
+    padding: 0.8em;
 }
